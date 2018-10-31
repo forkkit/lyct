@@ -1,5 +1,9 @@
 # Lyct
 
+[![Travis (.com)](https://img.shields.io/travis/com/brushwoodio/lyct.svg?style=flat-square)](https://travis-ci.com/brushwoodio/lyct)
+[![npm](https://img.shields.io/npm/dt/lyct.svg?style=flat-square)](https://www.npmjs.com/package/lyct)
+[![GitHub issues](https://img.shields.io/github/issues/brushwoodio/lyct.svg?style=flat-square)](https://github.com/brushwoodio/lyct/issues)
+
 Color templates based of the [color theory of Lyft][1]
 
 _Pronounced like \*licked\*_
