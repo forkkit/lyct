@@ -17,9 +17,9 @@ const Lyct = require('lyct')
 ## TODO
 
 * [ ] Lyct
-* [ ] LyctOptions
+* [x] LyctOptions
 * [ ] LyctCurves
-* [ ] LyctColorType
+* [x] LyctColorType
 * [ ] LyctColor
 * [ ] LyctColorSet
 
@@ -97,7 +97,7 @@ the default need to be passed.
 }
 ```
 
-### LyctCurves
+### LyctCurve
 
 Available curves and their values
 ```javascript
