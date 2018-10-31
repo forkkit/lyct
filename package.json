@@ -4,6 +4,7 @@
   "description": "Color templates based of the color theory of Lyft and ColorBox.io",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "jest"
   },
   "repository": {
