@@ -1,0 +1,31 @@
+{
+  "name": "lyct",
+  "version": "0.1.0",
+  "description": "Color templates based of the color theory of Lyft and ColorBox.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brushwoodio/lyct.git"
+  },
+  "keywords": [
+    "color",
+    "generator",
+    "lyft",
+    "accessibility",
+    "hue",
+    "saturation",
+    "luminosity",
+    "rgb",
+    "hex",
+    "hsl"
+  ],
+  "author": "Blake Grotewold <hello@brushwood.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brushwoodio/lyct/issues"
+  },
+  "homepage": "https://github.com/brushwoodio/lyct#readme"
+}
