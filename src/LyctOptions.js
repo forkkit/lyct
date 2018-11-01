@@ -1,4 +1,4 @@
-import LyctCurve from './LyctCurve';
+const LyctCurve = require('./LyctCurve');
 
 const LyctOptions = {
   steps: 7,

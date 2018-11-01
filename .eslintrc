@@ -3,5 +3,8 @@
     "plugins": ["jest"],
     "env": {
         "jest/globals": true
+    },
+    "rules": {
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
     }
 }
