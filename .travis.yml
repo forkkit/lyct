@@ -1,16 +1,17 @@
 language: node_js
-
 node_js:
-  - "node"
-  - "lts/*"
-
+- node
+- lts/*
 script:
-  - npm run lint
-  - npm test
-  - npm run build
-
+- npm run lint
+- npm test
+- npm run build
 deploy:
   provider: script
-  script: ./bin/distribute.sh
+  script: "./bin/distribute.sh"
   on:
     branch: master
+
+env:
+  global:
+    secure: Ap10zeQ9w9VVC4JR8ECjACdvy8fuV8GST0m5SK46fwJhoMPiitZfZPP6aAAk9H5OINblaKQ26dza8tmT2htGhNWIFk5vpzXyO8TZL0O/E8HOUS1zaTD20gr1r3QBxNoZH+Qc66IbtYmpcudJe/3POb/Q/j69X6j+KWVhmijK3cS8uGneHws7od6hXRsNmBbhg+0sWBN5zEfnOWC9IDMcDZ3u+Pp9S8rDEIrBdHDNErZBGSlslLQXGWB+hKX3pSy3w1R8S5027ltPXdUdCxutKxedhTUzsPEX6eO/9M0cEF8zOA2vPYd4CWEwl55yn92EGu4CP3KAj9M/Llvv/gs1x33ILJ+VrX+1yHP9DI7+2XzkeZvyIVYkhuVpzmR1RayZQGI07CcSv/tz7m/d9Jp4amLGtPEEYYIWO37jDzygOSVukWJNQgrfnwVvoLs+gMc1cGcOk59+mq+M88dZ8iVCXWW9yApR0996ZzLepYt3n2tri8NCZVO8WTrAmMUAhYUKQFwXLWptwUqSM1jwwbki2VGao0zTBIrp/ZcBaQY5AxIMr7rlLFJT/EFAzJuNzv48SLrgvVDSarcoDZJpD9VTJ5NtE2wQOBqQubHQdEi+L9MLC44HEGxk5GcP2QV/0ps7I0fsyVbNtGmgc1gDarNoLhRPh+zvpvrz9iGMJtjhRYE=
