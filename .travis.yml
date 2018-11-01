@@ -7,3 +7,10 @@ node_js:
 script:
   - npm run lint
   - npm test
+  - npm run build
+
+deploy:
+  provider: script
+  script: ./bin/distribute.sh
+  on:
+    branch: master
