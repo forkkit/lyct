@@ -6,8 +6,7 @@ setup_git() {
 }
 
 commit_website_files() {
-  git checkout -b master
-  git add dist
+  git add .
   git commit --message "[TravisCI] dist build: $TRAVIS_BUILD_NUMBER"
 }
 
