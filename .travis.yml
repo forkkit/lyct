@@ -10,6 +10,7 @@ deploy:
   skip_cleanup: true
   provider: script
   script: "./bin/distribute.sh"
+  github_token: $GH_TOKEN
   on:
     branch: master
 
