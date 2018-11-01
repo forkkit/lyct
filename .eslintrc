@@ -1,4 +1,7 @@
 {
     "extends": "airbnb",
-    "plugins": ["jest"]
+    "plugins": ["jest"],
+    "rules": {
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    }
 }
